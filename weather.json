@@ -1,0 +1,202 @@
+{
+   "items":[  
+      {  
+         "update_timestamp":"2019-01-07T12:08:52+08:00",
+         "timestamp":"2019-01-07T12:00:00+08:00",
+         "valid_period":{  
+            "start":"2019-01-07T12:00:00+08:00",
+            "end":"2019-01-07T14:00:00+08:00"
+         }
+      }],
+         "forecasts":[  
+            {  
+               "area":"Ang Mo Kio",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Bedok",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Bishan",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Boon Lay",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Bukit Batok",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Bukit Merah",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Bukit Panjang",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Bukit Timah",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Central Water Catchment",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Changi",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Choa Chu Kang",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Clementi",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"City",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Geylang",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Hougang",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Jalan Bahar",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Jurong East",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Jurong Island",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Jurong West",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Kallang",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Lim Chu Kang",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Mandai",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Marine Parade",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Novena",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Pasir Ris",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Paya Lebar",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Pioneer",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Pulau Tekong",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Pulau Ubin",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Punggol",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Queenstown",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Seletar",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Sembawang",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Sengkang",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Sentosa",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Serangoon",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Southern Islands",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Sungei Kadut",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Tampines",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Tanglin",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Tengah",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Toa Payoh",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Tuas",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Western Islands",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Western Water Catchment",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Woodlands",
+               "forecast":"Partly Cloudy (Day)"
+            },
+            {  
+               "area":"Yishun",
+               "forecast":"Partly Cloudy (Day)"
+            }
+         ]
+}
+   

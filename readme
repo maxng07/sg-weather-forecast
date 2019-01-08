@@ -1,0 +1,26 @@
+# sg-weather-forecast
+Weather forecast via WhatsApp in SG
+
+This is a communication app using the popular messenging WhatsApp. The whatsapp API and the backend Function as a Service and Storage are all using Twilio platform. Technically, you can move the Function and storage to another Cloud Platform and use just the Twilio Whatsapp API. This is a mini project to test out Twilio programmable SMS/Voice, WhatsApp was chosen because its popular in SG and its cost free to send message in Whatsapp versus international SMS (no SG phone number (E164) available in trial account).
+
+Twilio Function as a Service is a runtime container with Nodejs, so the codes are Node/JS.
+The function checks the datasource stored in Twilio Assets, at this time, Twilio does not allow remote API to update the datasource file except via its console. So manual process has to be done. If other Cloud Platform is used for Function and storage, this should be able to be automated.
+
+The backend data feed is from NEA / Govtech API, https://data.gov.sg/dataset/weather-forecast
+NEA/Gov Tech does not have metadata for the JSON data and is a dump of the complete set of datas, including area regions, location via GPS (latitude/longtitude), weather forecasts by areas, date/time. They offer 2 sets of data, either via date or date_time. The data response is in JSON string.
+
+You can directly invoke the Twilio Function by accessing via HTTPS instead of Twilio WhatsApp API to invoke the API for testing and debugging purposes. The Function can also be used for browser application.
+
+Twilio Function has a runtime of 5s, otherwise the function will be terminated. If you need to loop through an array or fetch from an external source, care should be taken to ensure the 5s limit is not reached. Nodejs code has to be simplified and clean.
+
+Twilio programmable WhatsApp has the webhook event to trigger function via https. When message arrives on the WhatsAPP API, trigger a URL. At this time of writing, Twilio function and assets are using AWS lambda, this might changed in the future.
+
+The pdf version provides more information on the setup using Twilio Platform, programmable SMS, Function and Assets. The nodejs codes are in weather.js and the sample datasource are in weather.json. Note that weather.js have taken the 5s runtime limitation into consideration. 
+
+weather.js logic :- open the weather.json file hosted in Twilio Asset, compare the incoming HTTP body for
+ALL - prints out the complete JS array objects in JSON array 
+Area - compare the specific area and print out the matching value JSON array JS object
+If there is no match, return null
+This can be further enhance to guide users to select the right area/region.
+
+The callback uses Twilio event - message response.
