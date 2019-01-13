@@ -18,13 +18,13 @@ Twilio programmable WhatsApp has the webhook event to trigger function via https
 The pdf version provides more information on the setup using Twilio Platform, programmable SMS, Function and Assets. The nodejs codes are in weather.js and the sample datasource are in weather.json. Note that weather.js have taken the 5s runtime limitation into consideration. 
 
 weather.js logic :- open the weather.json file hosted in Twilio Asset, compare the incoming HTTP body for
-ALL - prints out the complete JS array objects in JSON array 
-Area - compare the specific area and print out the matching value JSON array JS object
-If there is no match, return null
+1. ALL - prints out the complete JS array objects in JSON array 
+2. Specific Area - compare the specific area and print out the matching value JSON array JS object
+3. If there is no match, return null
 This can be further enhance to guide users to select the right area/region.
 
 The callback uses Twilio event - message response.
 
 Enhancement: Added 2 new enhancement 
-1. Added the ability to ask what are the regions/Area that the datasource contains weather forecast
+1. Added the ability to ask what are the regions/Area that the datasource contains weather forecast by sending "Area"
 2. Customised the reply message for List of Areas vs Weather Forecast
