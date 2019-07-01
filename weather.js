@@ -15,6 +15,7 @@ exports.handler = function(context, event, callback) {
     var msg = "" // the response message type to be send back
 
 //Check for a special key 
+//Currently Twilio Messaging Platform has a length limit of 1600 characters. The raw JSON array would exceed this length. 
 if (key === "all") {
     // Print out the whole JS array 
     keyval = JSON.stringify(jsonobj1.forecasts);
