@@ -1,5 +1,5 @@
 # Singapore-weather-forecast
-Weather forecast via WhatsApp in Singapore
+<h2>Weather forecast via WhatsApp in Singapore </h2>
 
 This is a communication app using the popular messenging WhatsApp. The whatsapp API and the backend Function as a Service and Storage are all using Twilio platform. Technically, you can move the Function and storage to another Cloud Platform and use just the Twilio Whatsapp API. This is a mini project to test out Twilio programmable SMS/Voice, WhatsApp was chosen because its popular in SG and its cost free to send message in Whatsapp versus international SMS (no SG phone number (E164) available in trial account).
 
@@ -18,7 +18,7 @@ Twilio programmable WhatsApp has the webhook event to trigger function via https
 The pdf version provides more information on the setup using Twilio Platform, programmable SMS, Function and Assets. The nodejs codes are in weather.js and the sample datasource are in weather.json. Note that weather.js have taken the 5s runtime limitation into consideration. 
 
 weather.js logic :- open the weather.json file hosted in Twilio Asset, compare the incoming HTTP body for
-1. ALL - prints out the complete JS array objects in JSON array 
+1. ALL - prints out the complete JS array objects in JSON array. Currently Twilio Messaging Platform has a length limit of 1600 characters. The raw array would exceed this length. 
 2. Specific Area - compare the specific area and print out the matching value JSON array JS object
 3. If there is no match, return null
 This can be further enhance to guide users to select the right area/region.
