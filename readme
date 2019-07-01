@@ -1,5 +1,5 @@
 # Singapore-weather-forecast
-<h2>Weather forecast via WhatsApp in Singapore </h2>
+Weather forecast via WhatsApp in Singapore 
 
 This is a communication app using the popular messenging WhatsApp. The whatsapp API and the backend Function as a Service and Storage are all using Twilio platform. Technically, you can move the Function and storage to another Cloud Platform and use just the Twilio Whatsapp API. This is a mini project to test out Twilio programmable SMS/Voice, WhatsApp was chosen because its popular in SG and its cost free to send message in Whatsapp versus international SMS (no SG phone number (E164) available in trial account).
 
