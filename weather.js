@@ -20,7 +20,6 @@ if (key === "all") {
         for (var i = 0; i < jsonobj1.forecasts.length; i++){
             let obj =jsonobj1.forecasts[i];
             keyval += jsonobj1.forecasts[i].area + " : " + jsonobj1.forecasts[i].forecast + "\n" ;
-            // console.log(x);
         }
 }
 
