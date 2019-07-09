@@ -17,9 +17,11 @@ exports.handler = function(context, event, callback) {
 //Check for a special key 
 //Currently Twilio Messaging Platform has a length limit of 1600 characters. The raw JSON array would exceed this length. 
 if (key === "all") {
-    // Print out the whole JS array 
-    keyval = JSON.stringify(jsonobj1.forecasts);
-//   console.log('%j', keyval + " all");
+        for (var i = 0; i < jsonobj1.forecasts.length; i++){
+            let obj =jsonobj1.forecasts[i];
+            keyval += jsonobj1.forecasts[i].area + " : " + jsonobj1.forecasts[i].forecast + "\n" ;
+            // console.log(x);
+        }
 }
 
 // check for key "area" to print out all the avail regions
